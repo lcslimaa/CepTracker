@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/cep/([0-9]+)"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "cep": "01001-000",
+      "street": "Praça da Sé",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
